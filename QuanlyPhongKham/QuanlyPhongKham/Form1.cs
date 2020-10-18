@@ -16,5 +16,15 @@ namespace QuanlyPhongKham
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            newGunc();
+        }
+
+        private void newGunc()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
