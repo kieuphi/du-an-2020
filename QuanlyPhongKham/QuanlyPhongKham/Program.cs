@@ -16,6 +16,7 @@ namespace QuanlyPhongKham
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle("Pumpkin");
             Application.Run(new FmModul());
         }
     }

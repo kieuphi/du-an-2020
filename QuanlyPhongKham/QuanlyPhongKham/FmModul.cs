@@ -21,10 +21,19 @@ namespace QuanlyPhongKham
         private void FmModul_Load(object sender, EventArgs e)
         {
             labelControl3.Text = DateTime.Now.ToString("dd/MM/yyyy");
-            Label textLabel = new Label()
-            {
 
-            };
+        }
+
+        private void labelControl4_SizeChanged(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void tlt_KhamBenh_ItemClick(object sender, TileItemEventArgs e)
+        {
+            FmMain f = new FmMain();
+            f.WindowState = FormWindowState.Maximized;
+            f.Show();
         }
     }
 }
