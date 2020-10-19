@@ -17,5 +17,14 @@ namespace QuanlyPhongKham
         {
             InitializeComponent();
         }
+
+        private void FmModul_Load(object sender, EventArgs e)
+        {
+            labelControl3.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            Label textLabel = new Label()
+            {
+
+            };
+        }
     }
 }
