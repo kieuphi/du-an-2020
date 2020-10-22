@@ -16,6 +16,7 @@ namespace QuanlyPhongKham
         public FmModul()
         {
             InitializeComponent();
+
         }
 
         private void FmModul_Load(object sender, EventArgs e)
@@ -23,6 +24,7 @@ namespace QuanlyPhongKham
             labelControl3.Text = DateTime.Now.ToString("dd/MM/yyyy");
             Login f = new Login();
             f.Show();
+
         }
 
         private void labelControl4_SizeChanged(object sender, EventArgs e)
