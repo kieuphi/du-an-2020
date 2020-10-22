@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmModul));
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl7 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
@@ -77,7 +77,7 @@
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1477, 73);
+            this.panelControl1.Size = new System.Drawing.Size(1356, 73);
             this.panelControl1.TabIndex = 1;
             // 
             // panelControl7
@@ -88,7 +88,7 @@
             this.panelControl7.Location = new System.Drawing.Point(2, 2);
             this.panelControl7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl7.Name = "panelControl7";
-            this.panelControl7.Size = new System.Drawing.Size(1473, 69);
+            this.panelControl7.Size = new System.Drawing.Size(1352, 69);
             this.panelControl7.TabIndex = 2;
             // 
             // labelControl4
@@ -112,10 +112,10 @@
             this.panelControl3.Controls.Add(this.labelControl2);
             this.panelControl3.Controls.Add(this.labelControl1);
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelControl3.Location = new System.Drawing.Point(0, 784);
+            this.panelControl3.Location = new System.Drawing.Point(0, 687);
             this.panelControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(1477, 49);
+            this.panelControl3.Size = new System.Drawing.Size(1356, 49);
             this.panelControl3.TabIndex = 3;
             // 
             // labelControl3
@@ -162,17 +162,17 @@
             this.panelControl2.Location = new System.Drawing.Point(0, 73);
             this.panelControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(1477, 711);
+            this.panelControl2.Size = new System.Drawing.Size(1356, 614);
             this.panelControl2.TabIndex = 5;
             // 
             // panelControl4
             // 
             this.panelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelControl4.Location = new System.Drawing.Point(2, 436);
+            this.panelControl4.Location = new System.Drawing.Point(2, 339);
             this.panelControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(1473, 273);
+            this.panelControl4.Size = new System.Drawing.Size(1352, 273);
             this.panelControl4.TabIndex = 2;
             // 
             // tileControl1
@@ -180,7 +180,7 @@
             this.tileControl1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tileControl1.Groups.Add(this.tileGroup2);
             this.tileControl1.Groups.Add(this.tileGroup3);
-            this.tileControl1.Location = new System.Drawing.Point(5, 44);
+            this.tileControl1.Location = new System.Drawing.Point(-55, -4);
             this.tileControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tileControl1.MaxId = 8;
             this.tileControl1.Name = "tileControl1";
@@ -204,12 +204,12 @@
             this.tlt_KhamBenh.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tlt_KhamBenh.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tlt_KhamBenh.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement1.ImageOptions.Image = global::QuanlyPhongKham.Properties.Resources.hospital2;
-            tileItemElement1.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement1.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement1.Text = "Khám Bệnh";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tlt_KhamBenh.Elements.Add(tileItemElement1);
+            tileItemElement8.ImageOptions.Image = global::QuanlyPhongKham.Properties.Resources.hospital2;
+            tileItemElement8.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement8.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement8.Text = "Khám Bệnh";
+            tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tlt_KhamBenh.Elements.Add(tileItemElement8);
             this.tlt_KhamBenh.Id = 0;
             this.tlt_KhamBenh.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tlt_KhamBenh.Name = "tlt_KhamBenh";
@@ -221,12 +221,12 @@
             this.tlt_Kho.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tlt_Kho.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tlt_Kho.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement2.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement2.Text = "Kho";
-            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tlt_Kho.Elements.Add(tileItemElement2);
+            tileItemElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement9.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement9.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement9.Text = "Kho";
+            tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tlt_Kho.Elements.Add(tileItemElement9);
             this.tlt_Kho.Id = 2;
             this.tlt_Kho.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tlt_Kho.Name = "tlt_Kho";
@@ -237,12 +237,12 @@
             this.tlt_NhanVien.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tlt_NhanVien.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tlt_NhanVien.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement3.ImageOptions.Image = global::QuanlyPhongKham.Properties.Resources.employees;
-            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement3.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement3.Text = "Nhân Viên";
-            tileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tlt_NhanVien.Elements.Add(tileItemElement3);
+            tileItemElement10.ImageOptions.Image = global::QuanlyPhongKham.Properties.Resources.employees;
+            tileItemElement10.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement10.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement10.Text = "Nhân Viên";
+            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tlt_NhanVien.Elements.Add(tileItemElement10);
             this.tlt_NhanVien.Id = 3;
             this.tlt_NhanVien.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tlt_NhanVien.Name = "tlt_NhanVien";
@@ -253,10 +253,10 @@
             this.tlt_ThietBi.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tlt_ThietBi.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tlt_ThietBi.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement4.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement4.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement4.Text = "Thiết Bị";
-            this.tlt_ThietBi.Elements.Add(tileItemElement4);
+            tileItemElement11.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement11.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
+            tileItemElement11.Text = "Thiết Bị";
+            this.tlt_ThietBi.Elements.Add(tileItemElement11);
             this.tlt_ThietBi.Id = 6;
             this.tlt_ThietBi.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tlt_ThietBi.Name = "tlt_ThietBi";
@@ -267,10 +267,10 @@
             this.tlt_BaoCao.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tlt_BaoCao.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tlt_BaoCao.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement5.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement5.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement5.Text = "Báo Cáo";
-            this.tlt_BaoCao.Elements.Add(tileItemElement5);
+            tileItemElement12.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement12.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
+            tileItemElement12.Text = "Báo Cáo";
+            this.tlt_BaoCao.Elements.Add(tileItemElement12);
             this.tlt_BaoCao.Id = 7;
             this.tlt_BaoCao.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tlt_BaoCao.Name = "tlt_BaoCao";
@@ -288,11 +288,11 @@
             this.tileItem4.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tileItem4.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem4.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            tileItemElement6.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement6.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement6.Text = "Cài Đặt";
-            this.tileItem4.Elements.Add(tileItemElement6);
+            tileItemElement13.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement13.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement13.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement13.Text = "Cài Đặt";
+            this.tileItem4.Elements.Add(tileItemElement13);
             this.tileItem4.Id = 4;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem4.Name = "tileItem4";
@@ -303,10 +303,10 @@
             this.tileItem5.AppearanceItem.Normal.Font = new System.Drawing.Font("Tahoma", 12F);
             this.tileItem5.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem5.AppearanceItem.Normal.Options.UseFont = true;
-            tileItemElement7.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement7.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement7.Text = "Ban Quản Trị";
-            this.tileItem5.Elements.Add(tileItemElement7);
+            tileItemElement14.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement14.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement14.Text = "Ban Quản Trị";
+            this.tileItem5.Elements.Add(tileItemElement14);
             this.tileItem5.Id = 5;
             this.tileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem5.Name = "tileItem5";
@@ -318,7 +318,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 73);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1477, 711);
+            this.pictureBox1.Size = new System.Drawing.Size(1356, 614);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -327,13 +327,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1477, 833);
+            this.ClientSize = new System.Drawing.Size(1356, 736);
             this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelControl3);
             this.Controls.Add(this.panelControl1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FmModul";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FmModul";
             this.Load += new System.EventHandler(this.FmModul_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();

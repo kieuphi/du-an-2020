@@ -21,7 +21,8 @@ namespace QuanlyPhongKham
         private void FmModul_Load(object sender, EventArgs e)
         {
             labelControl3.Text = DateTime.Now.ToString("dd/MM/yyyy");
-
+            Login f = new Login();
+            f.Show();
         }
 
         private void labelControl4_SizeChanged(object sender, EventArgs e)
@@ -32,7 +33,7 @@ namespace QuanlyPhongKham
         private void tlt_KhamBenh_ItemClick(object sender, TileItemEventArgs e)
         {
             FmMain f = new FmMain();
-            f.WindowState = FormWindowState.Maximized;
+            //f.WindowState = FormWindowState.Maximized;
             f.Show();
         }
     }
