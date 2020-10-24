@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanlyPhongKham.Md_KhamBenh;
 
 namespace QuanlyPhongKham
 {
@@ -17,7 +18,7 @@ namespace QuanlyPhongKham
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle("Pumpkin");
-            Application.Run(new FmModul());
+            Application.Run(new FmTaoMoiHoSo());
         }
     }
 }

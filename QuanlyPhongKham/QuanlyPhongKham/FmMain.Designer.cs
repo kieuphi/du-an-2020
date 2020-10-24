@@ -35,6 +35,7 @@
             this.bar4 = new DevExpress.XtraBars.Bar();
             this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
             this.btn_PhieuKham = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
             this.barSubItem5 = new DevExpress.XtraBars.BarSubItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
@@ -91,9 +92,10 @@
             this.barSubItem5,
             this.barButtonItem9,
             this.barButtonItem10,
-            this.barButtonItem11});
+            this.barButtonItem11,
+            this.barButtonItem12});
             this.barManager1.MainMenu = this.bar4;
-            this.barManager1.MaxItemId = 18;
+            this.barManager1.MaxItemId = 19;
             this.barManager1.StatusBar = this.bar2;
             // 
             // bar2
@@ -129,10 +131,11 @@
             // 
             // barSubItem3
             // 
-            this.barSubItem3.Caption = "Phiếu Khám";
+            this.barSubItem3.Caption = "Hồ Sơ Khám Bệnh";
             this.barSubItem3.Id = 6;
             this.barSubItem3.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.btn_PhieuKham)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.btn_PhieuKham),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem12)});
             this.barSubItem3.Name = "barSubItem3";
             // 
             // btn_PhieuKham
@@ -141,6 +144,12 @@
             this.btn_PhieuKham.Id = 7;
             this.btn_PhieuKham.Name = "btn_PhieuKham";
             this.btn_PhieuKham.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_PhieuKham_ItemClick);
+            // 
+            // barButtonItem12
+            // 
+            this.barButtonItem12.Caption = "barButtonItem12";
+            this.barButtonItem12.Id = 18;
+            this.barButtonItem12.Name = "barButtonItem12";
             // 
             // barSubItem4
             // 
@@ -373,5 +382,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem10;
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem12;
     }
 }

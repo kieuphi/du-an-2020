@@ -11,24 +11,19 @@ using DevExpress.XtraEditors;
 
 namespace QuanlyPhongKham.Md_KhamBenh
 {
-    public partial class FmPhieuKhamInsert : DevExpress.XtraEditors.XtraForm
+    public partial class FmTaoMoiHoSo : DevExpress.XtraEditors.XtraForm
     {
-        public FmPhieuKhamInsert()
+        public FmTaoMoiHoSo()
         {
             InitializeComponent();
         }
 
-        private void labelControl3_Click(object sender, EventArgs e)
+        private void comboBoxEdit5_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void FmPhieuKhamInsert_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelControl1_Click(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
