@@ -27,5 +27,15 @@ namespace QuanlyPhongKham.Md_KhamBenh
         {
 
         }
+
+        private void panelControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
