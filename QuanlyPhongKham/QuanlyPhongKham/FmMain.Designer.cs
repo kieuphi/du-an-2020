@@ -147,9 +147,10 @@
             // 
             // barButtonItem12
             // 
-            this.barButtonItem12.Caption = "barButtonItem12";
+            this.barButtonItem12.Caption = "Hồ Sơ";
             this.barButtonItem12.Id = 18;
             this.barButtonItem12.Name = "barButtonItem12";
+            this.barButtonItem12.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem12_ItemClick);
             // 
             // barSubItem4
             // 
@@ -215,7 +216,6 @@
             this.barButtonItem6.Id = 10;
             this.barButtonItem6.ImageOptions.Image = global::QuanlyPhongKham.Properties.Resources.KhamBenh;
             this.barButtonItem6.Name = "barButtonItem6";
-            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
             // barButtonItem7
             // 
@@ -232,7 +232,6 @@
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.barDockControlTop.Size = new System.Drawing.Size(1356, 70);
-            this.barDockControlTop.Click += new System.EventHandler(this.barDockControlTop_Click);
             // 
             // barDockControlBottom
             // 
@@ -242,8 +241,6 @@
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.barDockControlBottom.Size = new System.Drawing.Size(1356, 23);
-            this.barDockControlBottom.Click += new System.EventHandler(this.barDockControlBottom_Click);
-            // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
@@ -252,7 +249,7 @@
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.barDockControlLeft.Size = new System.Drawing.Size(0, 643);
-            this.barDockControlLeft.Click += new System.EventHandler(this.barDockControlLeft_Click);
+
             // 
             // barDockControlRight
             // 
@@ -262,7 +259,6 @@
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.barDockControlRight.Size = new System.Drawing.Size(0, 643);
-            this.barDockControlRight.Click += new System.EventHandler(this.barDockControlRight_Click);
             // 
             // barSubItem1
             // 
@@ -278,14 +274,13 @@
             this.btn_HoSo.Caption = "Hồ Sơ";
             this.btn_HoSo.Id = 1;
             this.btn_HoSo.Name = "btn_HoSo";
-            this.btn_HoSo.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_HoSo_ItemClick);
             // 
             // barButtonItem2
             // 
             this.barButtonItem2.Caption = "Lịch Sử";
             this.barButtonItem2.Id = 2;
             this.barButtonItem2.Name = "barButtonItem2";
-            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
+
             // 
             // barButtonItem3
             // 
@@ -294,7 +289,6 @@
             this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
             this.barButtonItem3.Name = "barButtonItem3";
-            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barSubItem2
             // 
@@ -307,7 +301,6 @@
             this.barButtonItem1.Caption = "barButtonItem1";
             this.barButtonItem1.Id = 5;
             this.barButtonItem1.Name = "barButtonItem1";
-            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // barButtonItem8
             // 

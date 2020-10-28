@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>QuanlyPhongKham</RootNamespace>
     <AssemblyName>QuanlyPhongKham</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -34,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Images.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -44,6 +45,7 @@
     <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common.cs" />
+    <Compile Include="dbConnect.cs" />
     <Compile Include="FmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +78,18 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Md_KhamBenh\FmDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Md_KhamBenh\FmDichVu.Designer.cs">
+      <DependentUpon>FmDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Md_KhamBenh\FmDichVuKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Md_KhamBenh\FmDichVuKhamBenh.Designer.cs">
+      <DependentUpon>FmDichVuKhamBenh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Md_KhamBenh\FmPhieuKham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +101,12 @@
     </Compile>
     <Compile Include="Md_KhamBenh\FmPhieuKhamInsert.Designer.cs">
       <DependentUpon>FmPhieuKhamInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Md_KhamBenh\FmTaoHoSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Md_KhamBenh\FmTaoHoSo.Designer.cs">
+      <DependentUpon>FmTaoHoSo.cs</DependentUpon>
     </Compile>
     <Compile Include="Md_KhamBenh\FmTaoMoiHoSo.cs">
       <SubType>Form</SubType>
@@ -104,11 +125,20 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Md_KhamBenh\FmDichVu.resx">
+      <DependentUpon>FmDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Md_KhamBenh\FmDichVuKhamBenh.resx">
+      <DependentUpon>FmDichVuKhamBenh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Md_KhamBenh\FmPhieuKham.resx">
       <DependentUpon>FmPhieuKham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Md_KhamBenh\FmPhieuKhamInsert.resx">
       <DependentUpon>FmPhieuKhamInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Md_KhamBenh\FmTaoHoSo.resx">
+      <DependentUpon>FmTaoHoSo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Md_KhamBenh\FmTaoMoiHoSo.resx">
       <DependentUpon>FmTaoMoiHoSo.cs</DependentUpon>

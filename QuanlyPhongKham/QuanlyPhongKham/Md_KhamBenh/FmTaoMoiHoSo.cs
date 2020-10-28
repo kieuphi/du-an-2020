@@ -37,5 +37,10 @@ namespace QuanlyPhongKham.Md_KhamBenh
         {
             
         }
+
+        private void labelControl23_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,10 +28,6 @@ namespace QuanlyPhongKham
             return null;
         }
 
-        private void btn_HoSo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
 
         private void btn_PhieuKham_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -53,44 +49,12 @@ namespace QuanlyPhongKham
             f.Show();
         }
 
-        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+
+        private void barButtonItem12_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
-        }
-
-        private void barDockControlTop_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void barDockControlBottom_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void barDockControlLeft_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void barDockControlRight_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
-
-        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
-
-        private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
+            FmTaoHoSo f = new FmTaoHoSo();
+           // f.WindowState = FormWindowState.Maximized;
+            f.Show();
         }
     }
 }
