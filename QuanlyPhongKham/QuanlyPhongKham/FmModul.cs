@@ -22,8 +22,9 @@ namespace QuanlyPhongKham
         private void FmModul_Load(object sender, EventArgs e)
         {
             labelControl3.Text = DateTime.Now.ToString("dd/MM/yyyy");
-            Login f = new Login();
-            f.Show();
+            OverlayFormShow.Instance.ShowFormOverlay(this);
+            Login frm = new Login();
+            frm.ShowDialog();
 
         }
 

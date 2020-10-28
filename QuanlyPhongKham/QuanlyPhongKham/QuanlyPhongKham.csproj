@@ -114,6 +114,7 @@
     <Compile Include="Md_KhamBenh\FmTaoMoiHoSo.Designer.cs">
       <DependentUpon>FmTaoMoiHoSo.cs</DependentUpon>
     </Compile>
+    <Compile Include="OverlayFormShow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FmMain.resx">

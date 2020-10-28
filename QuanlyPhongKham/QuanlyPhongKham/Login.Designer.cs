@@ -89,6 +89,7 @@
             this.simpleButton1.Size = new System.Drawing.Size(106, 32);
             this.simpleButton1.TabIndex = 3;
             this.simpleButton1.Text = "Đăng Nhập";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // btn_Thoat
             // 
