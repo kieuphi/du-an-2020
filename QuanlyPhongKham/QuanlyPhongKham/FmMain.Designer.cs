@@ -241,6 +241,7 @@
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.barDockControlBottom.Size = new System.Drawing.Size(1356, 23);
+            // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
@@ -249,7 +250,6 @@
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.barDockControlLeft.Size = new System.Drawing.Size(0, 643);
-
             // 
             // barDockControlRight
             // 
@@ -280,7 +280,6 @@
             this.barButtonItem2.Caption = "Lịch Sử";
             this.barButtonItem2.Id = 2;
             this.barButtonItem2.Name = "barButtonItem2";
-
             // 
             // barButtonItem3
             // 
@@ -338,6 +337,7 @@
             this.Name = "FmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUAN LY PHONG KHAM";
+            this.Load += new System.EventHandler(this.FmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
             this.ResumeLayout(false);

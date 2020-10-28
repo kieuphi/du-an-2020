@@ -38,9 +38,10 @@
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSoLuong = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDonGia = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTongTien = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
@@ -104,8 +105,9 @@
             this.gridColumn8,
             this.gridColumn9,
             this.gridColumn10,
-            this.gridColumn1,
-            this.gridColumn11,
+            this.colSoLuong,
+            this.colDonGia,
+            this.colTongTien,
             this.gridColumn12});
             this.gridView4.GridControl = this.gridControl2;
             this.gridView4.Name = "gridView4";
@@ -113,6 +115,7 @@
             this.gridView4.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect;
             this.gridView4.OptionsView.ShowFooter = true;
             this.gridView4.OptionsView.ShowGroupPanel = false;
+            this.gridView4.CellValueChanged += new DevExpress.XtraGrid.Views.Base.CellValueChangedEventHandler(this.gridView4_CellValueChanged);
             // 
             // gridColumn8
             // 
@@ -136,19 +139,37 @@
             this.gridColumn10.FieldName = "DienGiai";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 4;
+            this.gridColumn10.VisibleIndex = 3;
             // 
-            // gridColumn11
+            // colSoLuong
             // 
-            this.gridColumn11.Caption = "Đơn Giá";
-            this.gridColumn11.DisplayFormat.FormatString = "#,#";
-            this.gridColumn11.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.gridColumn11.FieldName = "DonGia";
-            this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            this.colSoLuong.Caption = "Số Lượng";
+            this.colSoLuong.FieldName = "SoLuong";
+            this.colSoLuong.Name = "colSoLuong";
+            this.colSoLuong.Visible = true;
+            this.colSoLuong.VisibleIndex = 4;
+            // 
+            // colDonGia
+            // 
+            this.colDonGia.Caption = "Đơn Giá";
+            this.colDonGia.DisplayFormat.FormatString = "#,#";
+            this.colDonGia.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.colDonGia.FieldName = "DonGia";
+            this.colDonGia.Name = "colDonGia";
+            this.colDonGia.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "DonGia", "Tổng ={0:0.##}")});
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 5;
+            this.colDonGia.Visible = true;
+            this.colDonGia.VisibleIndex = 5;
+            // 
+            // colTongTien
+            // 
+            this.colTongTien.Caption = "Tổng Tiền";
+            this.colTongTien.DisplayFormat.FormatString = "#,#";
+            this.colTongTien.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.colTongTien.FieldName = "ThanhTien";
+            this.colTongTien.Name = "colTongTien";
+            this.colTongTien.Visible = true;
+            this.colTongTien.VisibleIndex = 6;
             // 
             // gridColumn12
             // 
@@ -156,14 +177,7 @@
             this.gridColumn12.FieldName = "Active";
             this.gridColumn12.Name = "gridColumn12";
             this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 6;
-            // 
-            // gridColumn1
-            // 
-            this.gridColumn1.Caption = "Số Lượng";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 3;
+            this.gridColumn12.VisibleIndex = 7;
             // 
             // FmDichVu
             // 
@@ -195,8 +209,9 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
+        private DevExpress.XtraGrid.Columns.GridColumn colDonGia;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoLuong;
+        private DevExpress.XtraGrid.Columns.GridColumn colTongTien;
     }
 }

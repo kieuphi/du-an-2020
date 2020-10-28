@@ -63,6 +63,8 @@ namespace QuanlyPhongKham.Md_KhamBenh
                         r["MaLoaiDV"] = ts["MaLoaiDV"] + "";
                         r["DienGiai"] = ts["DienGiai"] + "";
                         r["DonGia"] = ts["DonGia"] + "";
+                        r["SoLuong"] = ts["SoLuong"] + "";
+                        r["ThanhTien"] = ts["ThanhTien"] + "";
                         r["Active"] = ts["Active"] + "";
 
                         list.Rows.Add(r);
@@ -74,7 +76,7 @@ namespace QuanlyPhongKham.Md_KhamBenh
 
         private void FmTaoHoSo_Load(object sender, EventArgs e)
         {
-            gridControl2.DataSource = db.GetData("select * from DichVu");
+            gridControl2.DataSource = db.GetData("select * from DichVu dv left join ChiTietDV ctdv on dv.MaDV = ctdv.MaDV");
             var dt = gridControl2.DataSource as DataTable;
             dt.Clear();
         }

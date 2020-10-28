@@ -56,5 +56,10 @@ namespace QuanlyPhongKham
            // f.WindowState = FormWindowState.Maximized;
             f.Show();
         }
+
+        private void FmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
