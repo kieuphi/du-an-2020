@@ -29,7 +29,7 @@ namespace QuanlyPhongKham.Md_KhamBenh
         }
         private void loaddl()
         {
-            gridControl2.DataSource = db.GetData("select dv.MaDV MaDV,MaLoaiDV,DienGiai,SoLuong = '1',dv.DonGia DonGia,ThanhTien,Active from DichVu dv left join ChiTietDV ctdv on dv.MaDV = ctdv.MaDV");
+            gridControl2.DataSource = db.GetData("select dv.MaDV MaDV,MaLoaiDV,DienGiai,SoLuong = '1',dv.DonGia DonGia,ThanhTien= 1 * dv.DonGia,Active from DichVu dv left join ChiTietDV ctdv on dv.MaDV = ctdv.MaDV");
         }
         public List<DataRow> SelectedTS = new List<DataRow>();
         private void btn_Chon_Click(object sender, EventArgs e)
