@@ -26,11 +26,13 @@ namespace QuanlyPhongKham
         private void btn_Thoat_Click(object sender, EventArgs e)
         {
             OverlayFormShow.Instance.CloseProgressPanel();
+            this.Close();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             OverlayFormShow.Instance.CloseProgressPanel();
+            this.Close();
         }
     }
 }
