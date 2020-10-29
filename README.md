@@ -17,8 +17,8 @@ Solutions for medical clinics
 Copyright © 2020 - TTQL team
 
 - Contact
-    - [kiều phi ](https://github.com/kieuphi)
+    - [Thanh Pham](https://github.com/hoangthanhpro97)
     - [Loc Le](https://github.com/locle1601)
     - [ThanhPrao](https://github.com/thanhprao)
-
+    - kieu phi
 
