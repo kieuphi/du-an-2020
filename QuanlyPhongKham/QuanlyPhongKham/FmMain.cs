@@ -31,12 +31,12 @@ namespace QuanlyPhongKham
 
         private void btn_PhieuKham_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Form frm = CheckForm(typeof(FmPhieuKham));
+            Form frm = CheckForm(typeof(FmDanhSachChoKham));
             if (frm != null)
                 frm.Activate();
             else
             {
-                FmPhieuKham ts = new FmPhieuKham();
+                FmDanhSachChoKham ts = new FmDanhSachChoKham();
                 ts.MdiParent = this;
                 ts.Show();
             }
@@ -45,8 +45,6 @@ namespace QuanlyPhongKham
 
         private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            FmPhieuKhamInsert f = new FmPhieuKhamInsert();
-            f.Show();
         }
 
 
@@ -59,6 +57,15 @@ namespace QuanlyPhongKham
 
         private void FmMain_Load(object sender, EventArgs e)
         {
+            Form frm = CheckForm(typeof(FmDanhSachChoKham));
+            if (frm != null)
+                frm.Activate();
+            else
+            {
+                FmDanhSachChoKham ts = new FmDanhSachChoKham();
+                ts.MdiParent = this;
+                ts.Show();
+            }
 
         }
     }

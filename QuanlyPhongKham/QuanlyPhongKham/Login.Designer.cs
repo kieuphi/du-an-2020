@@ -37,10 +37,12 @@
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.btn_Thoat = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -56,6 +58,8 @@
             // 
             this.textEdit1.Location = new System.Drawing.Point(93, 61);
             this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.textEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.textEdit1.Properties.AutoHeight = false;
             this.textEdit1.Size = new System.Drawing.Size(262, 25);
             this.textEdit1.TabIndex = 1;
@@ -73,6 +77,8 @@
             // 
             this.textEdit2.Location = new System.Drawing.Point(93, 97);
             this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.textEdit2.Properties.Appearance.Options.UseBackColor = true;
             this.textEdit2.Properties.AutoHeight = false;
             this.textEdit2.Size = new System.Drawing.Size(262, 25);
             this.textEdit2.TabIndex = 1;
@@ -115,24 +121,35 @@
             this.labelControl3.TabIndex = 4;
             this.labelControl3.Text = "Bản quyền thuộc về nhóm phát triển 57. TTQL";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.labelControl4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(389, 41);
+            this.panel1.TabIndex = 5;
+            // 
             // labelControl4
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
-            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.Teal;
+            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Appearance.Options.UseForeColor = true;
-            this.labelControl4.Location = new System.Drawing.Point(93, 12);
+            this.labelControl4.Location = new System.Drawing.Point(111, 3);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(166, 33);
-            this.labelControl4.TabIndex = 0;
+            this.labelControl4.TabIndex = 1;
             this.labelControl4.Text = "ĐĂNG NHẬP";
-            this.labelControl4.Click += new System.EventHandler(this.labelControl1_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(389, 218);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.simpleButton1);
@@ -140,13 +157,14 @@
             this.Controls.Add(this.textEdit2);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.labelControl1);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,6 +180,7 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton btn_Thoat;
         private DevExpress.XtraEditors.LabelControl labelControl3;
+        private System.Windows.Forms.Panel panel1;
         private DevExpress.XtraEditors.LabelControl labelControl4;
     }
 }

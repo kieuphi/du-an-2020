@@ -78,6 +78,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Md_KhamBenh\FmDanhSachChoKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Md_KhamBenh\FmDanhSachChoKham.Designer.cs">
+      <DependentUpon>FmDanhSachChoKham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Md_KhamBenh\FmDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,29 +96,11 @@
     <Compile Include="Md_KhamBenh\FmDichVuKhamBenh.Designer.cs">
       <DependentUpon>FmDichVuKhamBenh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Md_KhamBenh\FmPhieuKham.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Md_KhamBenh\FmPhieuKham.Designer.cs">
-      <DependentUpon>FmPhieuKham.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Md_KhamBenh\FmPhieuKhamInsert.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Md_KhamBenh\FmPhieuKhamInsert.Designer.cs">
-      <DependentUpon>FmPhieuKhamInsert.cs</DependentUpon>
-    </Compile>
     <Compile Include="Md_KhamBenh\FmTaoHoSo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Md_KhamBenh\FmTaoHoSo.Designer.cs">
       <DependentUpon>FmTaoHoSo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Md_KhamBenh\FmTaoMoiHoSo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Md_KhamBenh\FmTaoMoiHoSo.Designer.cs">
-      <DependentUpon>FmTaoMoiHoSo.cs</DependentUpon>
     </Compile>
     <Compile Include="OverlayFormShow.cs" />
     <Compile Include="Program.cs" />
@@ -126,23 +114,17 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Md_KhamBenh\FmDanhSachChoKham.resx">
+      <DependentUpon>FmDanhSachChoKham.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Md_KhamBenh\FmDichVu.resx">
       <DependentUpon>FmDichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Md_KhamBenh\FmDichVuKhamBenh.resx">
       <DependentUpon>FmDichVuKhamBenh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Md_KhamBenh\FmPhieuKham.resx">
-      <DependentUpon>FmPhieuKham.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Md_KhamBenh\FmPhieuKhamInsert.resx">
-      <DependentUpon>FmPhieuKhamInsert.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Md_KhamBenh\FmTaoHoSo.resx">
       <DependentUpon>FmTaoHoSo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Md_KhamBenh\FmTaoMoiHoSo.resx">
-      <DependentUpon>FmTaoMoiHoSo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

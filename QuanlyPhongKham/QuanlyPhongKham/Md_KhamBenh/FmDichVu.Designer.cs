@@ -55,14 +55,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 344);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(745, 44);
+            this.panel1.Size = new System.Drawing.Size(749, 44);
             this.panel1.TabIndex = 0;
             // 
             // simpleButton2
             // 
             this.simpleButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(351, 8);
+            this.simpleButton2.Location = new System.Drawing.Point(353, 8);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(97, 26);
             this.simpleButton2.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             this.btn_Chon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Chon.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Chon.ImageOptions.Image")));
-            this.btn_Chon.Location = new System.Drawing.Point(248, 8);
+            this.btn_Chon.Location = new System.Drawing.Point(250, 8);
             this.btn_Chon.Name = "btn_Chon";
             this.btn_Chon.Size = new System.Drawing.Size(97, 26);
             this.btn_Chon.TabIndex = 2;
@@ -85,7 +85,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(745, 344);
+            this.panel2.Size = new System.Drawing.Size(749, 344);
             this.panel2.TabIndex = 1;
             // 
             // gridControl2
@@ -94,7 +94,7 @@
             this.gridControl2.Location = new System.Drawing.Point(0, 0);
             this.gridControl2.MainView = this.gridView4;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(745, 344);
+            this.gridControl2.Size = new System.Drawing.Size(749, 344);
             this.gridControl2.TabIndex = 2;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4});
@@ -156,8 +156,6 @@
             this.colDonGia.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.colDonGia.FieldName = "DonGia";
             this.colDonGia.Name = "colDonGia";
-            this.colDonGia.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "DonGia", "Tổng ={0:0.##}")});
             this.colDonGia.Visible = true;
             this.colDonGia.VisibleIndex = 5;
             // 
@@ -168,6 +166,8 @@
             this.colTongTien.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.colTongTien.FieldName = "ThanhTien";
             this.colTongTien.Name = "colTongTien";
+            this.colTongTien.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "ThanhTien", "Tổng ={0:#,#}")});
             this.colTongTien.Visible = true;
             this.colTongTien.VisibleIndex = 6;
             // 
@@ -183,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 388);
+            this.ClientSize = new System.Drawing.Size(749, 388);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FmDichVu";
